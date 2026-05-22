@@ -1,0 +1,167 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+/* HEADER AND HERO SECTION */
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    min-height: 650px;
+}
+
+ul.hero {
+    margin: 0px;
+}
+ul.hero > * {
+    display: inline-block;
+    margin-right: 5px; 
+    font-size: 18px;
+       
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+div.next-section {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.porsche {
+    height: 300px;
+    border-radius: 30px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+div.next-section > div > p {
+    font-size: 24px;
+}
+
+div.next-section > div > button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 5px 15px;
+    border: 0px;
+    font-size: 18px;
+}
+
+/* MAIN CONTENT SECTION */
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+ 
+h2 {
+    color: #1f2937;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+ul>li > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #1f2937;
+
+}
+
+figcaption {
+    display: block;
+    width: 200px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    min-height: 200px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial > * {
+    width: 75%;
+}
+
+.testimonial > span {
+    padding-left: auto;
+}
+
+.testimonial > p {
+    font-size: 20px;
+}
+
+.action {
+    width: 70%;
+    background-color: #3882f6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.action > button {
+    background-color: #3882f6;
+    color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* THE FOOTER SECTION */
+
+footer {
+    color: aliceblue;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
